@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(51, 45, 45);
+}
+
+.inputBox {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox input {
+    width: 300px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+.inputBox button {
+    width: 90px;
+    height: 34px;
+    background: rgb(19, 89, 182);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.data {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box .head {
+    border: 1px solid rgb(78, 13, 228);
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.box .head span {
+    font-size: 2rem;
+}
+
+.total {
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.total div {
+    margin-top: 15px;
+    width: 30%;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(209, 16, 16);
+    color: white;
+}
+
+.total div p {
+    margin: 50px 0 10px 0;
+}
+
+.total div:nth-child(1) {
+    background: #41a7ff;
+}
+
+.total div:nth-child(2) {
+    background: #ff3434;
+}
+
+.total div:nth-child(3) {
+    background: #32b336;
+}
+
+.new {
+    margin-top: 30px;
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.new div {
+    width: 30%;
+    height: 200px;
+    background-color: rgb(65, 144, 255);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.new div p {
+    margin: 50px 0 10px 0;
+}
+
+.new div:nth-child(1) {
+    background: #d83f3f;
+}
+
+.new div:nth-child(2) {
+    background: #ff0053;
+}
+
+.new div:nth-child(3) {
+    background: #ffa501;
+}
